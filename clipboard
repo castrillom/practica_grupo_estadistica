@@ -1,1 +1,3 @@
 Aquí poner lo que sea
+CdP <- read.csv("CdP_estadistica.csv", sep=",")
+CdP$date<-as.Date(CdP$date)
